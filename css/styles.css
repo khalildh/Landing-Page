@@ -2,16 +2,34 @@
 /* Added Responsive background from this site http://stackoverflow.com/questions/18612651/how-to-use-responsive-background-image-in-css3-in-bootstrap */
 
 body {
-	background: url(http://www.pixelstalk.net/wp-content/uploads/2016/10/Abstract-Black-Marble-Backgrounds-2560x1440.jpg) no-repeat center center fixed;
+	background: url(http://www.pixelstalk.net/wp-content/uploads/2016/10/Abstract-Black-Marble-Backgrounds-2560x1440.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover; 
     -o-background-size: cover;
 	background-size: cover;
+	font-family: 'Cormorant Garamond', Eczar,  'Gentium Basic', 'Libre Baskerville', 'Libre Franklin', 'Proza Libre', Rubik, Taviraj, Trirong, 'Work Sans', Times, serif
 }
 
 
+/* Made the jumbotron background completely Transparent so it would show Background Image 
+   Also Changed Color to White to standout */
 
 .jumbotron {
 	background-color: rgba(255, 255, 255, 0.0);
 	color: white;
+	margin-top: 10em;
+	text-transform: capitalize;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+hr {
+	width: 40em;
+}
+
+.btn-danger {
+	color: black;
+	font-weight: bold;
 }

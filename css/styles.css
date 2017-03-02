@@ -1,13 +1,15 @@
 /* Background is of Marble, because marble is un-emotional like Stoicism */
+
+
 /* Added Responsive background from this site http://stackoverflow.com/questions/18612651/how-to-use-responsive-background-image-in-css3-in-bootstrap */
 
 body {
-	background: url(http://www.pixelstalk.net/wp-content/uploads/2016/10/Abstract-Black-Marble-Backgrounds-2560x1440.jpg) no-repeat center fixed;
-	-webkit-background-size: cover;
-    -moz-background-size: cover; 
+    background: url(http://www.pixelstalk.net/wp-content/uploads/2016/10/Abstract-Black-Marble-Backgrounds-2560x1440.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
-	background-size: cover;
-	font-family: 'Cormorant Garamond', Eczar,  'Gentium Basic', 'Libre Baskerville', 'Libre Franklin', 'Proza Libre', Rubik, Taviraj, Trirong, 'Work Sans', Times, serif
+    background-size: cover;
+    font-family: 'Cormorant Garamond', Eczar, 'Gentium Basic', 'Libre Baskerville', 'Libre Franklin', 'Proza Libre', Rubik, Taviraj, Trirong, 'Work Sans', Times, serif
 }
 
 
@@ -15,21 +17,32 @@ body {
    Also Changed Color to White to standout */
 
 .jumbotron {
-	background-color: rgba(255, 255, 255, 0.0);
-	color: white;
-	margin-top: 10em;
-	text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: white;
+    margin-top: 10em;
+    text-transform: capitalize;
 }
 
 h2 {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 hr {
-	width: 40em;
+    clear: both;
+    width: 60%;
 }
 
 .btn-danger {
-	color: black;
-	font-weight: bold;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* add media query to scale hr width on a 960px breakpoint 
+   Bootstrap uses 960 for small-mid Labtops */
+
+@media screen and (min-width: 960px) {
+    hr {
+        width: 45%;
+    }
 }

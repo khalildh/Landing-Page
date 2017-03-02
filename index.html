@@ -15,36 +15,56 @@
     <body>
         <header>
             <!-- Adding a Nav Bar -->
-            <nav class="navbar navbar-inverse navbar-static-top">
+            <!-- Add a navbar-fixed-top to make the navbar scale -->
+            <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#"><i class="fa fa-superpowers" aria-hidden="true"></i>Stoics</a> </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Sign Up</a></li>
-                            <li><a href="#">Login</a></li>
-                        </ul>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#"><i class="fa fa-superpowers" aria-hidden="true"></i>Stoics</a> </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#">Sign Up</a></li>
+                                    <li><a href="#">Login</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
                     </div>
-                    <!-- /.navbar-collapse -->
                 </div>
                 <!-- /.container-fluid -->
             </nav>
         </header>
+        <!--
         <section class="jumbotron text-center">
+            
             <h1>Stoicism</h1>
-            <h2> Learn the fundamental secrets to empower your life </h2>
+            <h2>Learn the fundamental secrets to empower your life </h2>
             <hr>
             <!-- Single button -->
+        <!--
             <div class="btn-group" role="group" aria-label="...">
                 <button type="button" class="btn btn-danger">Enter Ye who is willing...</button>
             </div>
         </section>
+        -->
+        <!-- changed the html to add in a grid system -->
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Stoicism</h1>
+                    <h2>Learn the fundamental secrets to empower your life</h2>
+                    <hr>
+                    <button type="button" class="btn btn-danger">Enter Ye who is willing...</button>
+                </div>
+            </div>
+        </div>
         <header> </header>
     </body>
 

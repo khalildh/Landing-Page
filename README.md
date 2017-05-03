@@ -2,4 +2,4 @@
 Landing Page Test
 
 
-Visit @ github.io/landing-page
+Visit @ https://khalildh.github.io/Landing-Page/
